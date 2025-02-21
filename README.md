@@ -53,3 +53,11 @@ func setup(){
 ```
 
 Is there anything I missed?
+
+The video output from the app.
+
+![The video from App](https://gitee.com/SpaceGrey0223/typora/raw/master/20250221093807.jpg)
+
+The video output from the system camera.
+
+![The video from original camera](https://gitee.com/SpaceGrey0223/typora/raw/master/20250221093552.jpg)
