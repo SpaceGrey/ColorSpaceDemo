@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    let model = CameraModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CameraPreview(source: model.previewSource)
+            Button("Start Recording") {
+                model.startRecording()
+            }
+            Button("Stop Recording") {
+                model.stopRecording()
+            }
         }
         .padding()
     }
